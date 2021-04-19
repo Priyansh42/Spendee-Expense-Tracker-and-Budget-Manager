@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".NextIncome"></activity>
+        <activity android:name=".emi" />
+        <activity android:name=".income2" />
+        <activity android:name=".Finalinc" />
+        <activity android:name=".inc_emi" />
+        <activity android:name=".searchdata2" />
+        <activity android:name=".searchdata" />
+        <activity android:name=".change_password" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity android:name=".about" />
+        <activity android:name=".first_home_page" />
+        <activity android:name=".resetpassword" />
+        <activity android:name=".Registration" />
+        <activity android:name=".home_screen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

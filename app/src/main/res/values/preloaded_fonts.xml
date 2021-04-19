@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/alex_brush</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/antic_slab</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/archivo_black</item>
+        <item>@font/assistant_bold</item>
+        <item>@font/bungee_hairline</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/cinzel_decorative</item>
+        <item>@font/cousine</item>
+        <item>@font/cutive</item>
+        <item>@font/cutive_mono</item>
+        <item>@font/diplomata_sc</item>
+        <item>@font/faster_one</item>
+        <item>@font/holtwood_one_sc</item>
+        <item>@font/julius_sans_one</item>
+        <item>@font/michroma</item>
+        <item>@font/sarina</item>
+    </array>
+</resources>

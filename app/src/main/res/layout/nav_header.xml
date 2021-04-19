@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/yellowdesign">
+
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="146dp"
+        android:layout_height="136dp"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/register_user" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-19dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Welcome,"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/cousine"
+        android:text="User Email"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+</LinearLayout>

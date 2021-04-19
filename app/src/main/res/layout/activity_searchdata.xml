@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".searchdata"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/about_toolbar"
+        layout="@layout/search"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/txtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFECB3"
+        android:drawableLeft="@drawable/ic_search"
+        android:hint="Search by date"
+        android:padding="10dp"
+        android:textColorHint="@color/black">
+
+    </AutoCompleteTextView>
+
+    <ListView
+        android:id="@+id/listdata"
+        android:layout_below="@+id/txtSearch"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFECB3"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/cardview_default_elevation"
+        android:divider="@android:color/white"
+        >
+
+    </ListView>
+
+</RelativeLayout>

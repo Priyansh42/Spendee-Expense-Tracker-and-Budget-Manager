@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageView" type="id" />
+    <item name="name_reg" type="id" />
+    <item name="repassword_reg" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="drawer_layout" type="id" />
+    <item name="naView" type="id" />
+    <item name="my_toolbar" type="id" />
+    <item name="rating_bar" type="id" />
+    <item name="rating_btn" type="id" />
+</resources>

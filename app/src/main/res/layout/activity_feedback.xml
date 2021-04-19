@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".feedback">
+
+    <include
+        android:id="@+id/about_toolbar"
+        layout="@layout/feedback_toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate this App"
+        android:layout_marginTop="220dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressTint="@color/golden"
+        android:padding="10dp"
+        android:stepSize="0.5"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/rating_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@color/yellow"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

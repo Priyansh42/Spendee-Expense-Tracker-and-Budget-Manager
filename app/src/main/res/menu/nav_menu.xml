@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_profile">
+
+    </item>
+    <item android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard">
+
+    </item>
+    <item android:id="@+id/income"
+        android:title="Income"
+        android:icon="@drawable/ic_income">
+
+    </item>
+    <item android:id="@+id/search_income"
+        android:title="Search Income"
+        android:icon="@drawable/search_income">
+
+    </item>
+    <item android:id="@+id/expense"
+        android:title="Expense"
+        android:icon="@drawable/ic_expense">
+
+    </item>
+    <item android:id="@+id/search_expense"
+        android:title="Search Expense"
+        android:icon="@drawable/search_expense">
+
+    </item>
+    <item android:id="@+id/income_tax_emi"
+        android:title="Income Tax And EMI"
+        android:icon="@drawable/ic_inc">
+
+    </item>
+    <item android:id="@+id/calculator"
+        android:title="Calculator"
+        android:icon="@drawable/ic__calculator">
+
+    </item>
+    <item android:id="@+id/feedback"
+        android:title="Rate us"
+        android:icon="@drawable/ic_star_rate">
+
+    </item>
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_about">
+
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout">
+
+    </item>
+</menu>

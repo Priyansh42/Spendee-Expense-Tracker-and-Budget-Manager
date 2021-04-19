@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Finalinc">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="237dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        android:editable="false"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="INCOME TAX CALCULATOR"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/yellow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="397dp"
+        android:layout_height="487dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419">
+
+        <TableRow
+            android:id="@+id/th1"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="172dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Basic Pay"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="213dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th11"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="172dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Other Income"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="213dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th12"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="172dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Total Gross"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="213dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th13"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="172dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="DEDUCTIONS"
+                android:textColor="@color/black" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th14"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="172dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Total"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="172dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th15"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="172dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Standard Deduction"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="213dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="50000"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th188"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView415"
+                android:layout_width="172dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="GROSS"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th1818"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5415"
+                android:layout_width="172dp"
+
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Gross Taxable"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="172dp"
+
+                android:gravity="center"
+                android:padding="10dp"
+
+                android:textSize="16sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th1288"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:background="@color/yellow"
+            android:elevation="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView41235"
+                android:layout_width="172dp"
+                android:layout_height="match_parent"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="TOTAL TAX"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/th128138"
+            android:layout_width="348dp"
+            android:layout_height="49dp"
+            android:elevation="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="172dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="TOTAL PAYABLE TAX"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="16sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+
+
+    <Button
+        android:id="@+id/goback"
+        android:layout_width="145dp"
+        android:layout_height="46dp"
+        android:background="@color/yellow"
+        android:text="GO BACK"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table"
+        app:layout_constraintVertical_bias="0.735" />
+
+    <Button
+        android:id="@+id/backtomain"
+        android:layout_width="145dp"
+        android:layout_height="46dp"
+        android:background="@color/yellow"
+        android:text="Back To Main"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table"
+        app:layout_constraintVertical_bias="0.735" />
+</androidx.constraintlayout.widget.ConstraintLayout>
