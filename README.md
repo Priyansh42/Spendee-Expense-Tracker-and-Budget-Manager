@@ -54,9 +54,12 @@ It can take a good market as it is usable by anyone who are willing to manage th
 * Logout
 
 
-## Flowchart
-![Flowchart_Spendee](https://user-images.githubusercontent.com/68781375/118103768-e5e1b300-b3f7-11eb-89cb-4be100c49428.png)
-
-
 ## Demo Video
 https://user-images.githubusercontent.com/68781375/118097143-ea09d280-b3ef-11eb-9593-9e33fb12bb61.mp4
+
+
+## 
+__Here in this repository, we have uploaded all the files that are required to develop this application.__
+
+
+__You can download this app from *Spendee.apk*__ folder.
