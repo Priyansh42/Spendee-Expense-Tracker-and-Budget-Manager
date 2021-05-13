@@ -62,4 +62,7 @@ https://user-images.githubusercontent.com/68781375/118097143-ea09d280-b3ef-11eb-
 __Here in this repository, we have uploaded all the files that are required to develop this application.__
 
 
-__You can download this app from *Spendee.apk*__ folder.
+__You can download this app from *Spendee.apk* folder.__
+
+
+__For more details refer to *SRS_Spendee*.__
