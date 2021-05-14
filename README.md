@@ -47,6 +47,7 @@ It can take a good market as it is usable by anyone who are willing to manage th
 * Login
 * Registration
 * Forgot Password
+* Email Verification 
 * Low Balance Alert
 * Rate Us
 * Change Password
