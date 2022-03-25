@@ -66,7 +66,7 @@ https://user-images.githubusercontent.com/68781375/160127807-79c42a68-5462-48e6-
 __Here in this repository, we have uploaded all the files that are required to develop this application.__
 
 
-__You can download this app from *Spendee.apk* folder.__
+__You can download this app from [Spendee.apk](https://github.com/Priyansh42/Spendee-Expense-Tracker-and-Budget-Manager/blob/master/Spendee.apk) folder.__
 
 
-__For more details refer to *SRS_Spendee*.__
+__For more details refer to [SRS_Spendee](https://github.com/Priyansh42/Spendee-Expense-Tracker-and-Budget-Manager/blob/master/SRS_Spendee.doc).__
