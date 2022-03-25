@@ -58,7 +58,8 @@ It can take a good market as it is usable by anyone who are willing to manage th
 
 
 ## Demo Video
-Video Link: https://www.youtube.com/watch?v=LG6vtDDKgQU
+
+https://user-images.githubusercontent.com/68781375/160127807-79c42a68-5462-48e6-acb5-dfc5390adfb5.mp4
 
 
 ## 
