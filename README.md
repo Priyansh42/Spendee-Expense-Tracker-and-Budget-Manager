@@ -75,5 +75,7 @@ __You can download this app from [Spendee.apk](https://github.com/Priyansh42/Spe
 __For more details refer to [SRS_Spendee](https://github.com/Priyansh42/Spendee-Expense-Tracker-and-Budget-Manager/blob/master/SRS_Spendee.doc).__
 
 
-***<u>NOTE:</u> You may find the emails of email verification and forgot password under the spam folder if not found in primary inbox.***
+**---------------  N  O  T  E  ---------------**
+
+***You may find the emails of email verification and forgot password under the spam folder if not found in primary inbox.***
  
