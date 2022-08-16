@@ -77,5 +77,5 @@ __For more details refer to [SRS_Spendee](https://github.com/Priyansh42/Spendee-
 
 **---------------  N  O  T  E  ---------------**
 
-***You may find the emails of email verification and forgot password under the spam folder if not found in primary inbox.***
+***You may find the emails of email verification and forgot password under the spam folder if not found in the primary inbox.***
  
